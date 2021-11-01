@@ -1,5 +1,7 @@
-fun formatName(name: String?) = name ?: "Fellow Human"
+package ChapterOne
 
+fun formatName(name: String?) = name ?: "Fellow Human"
+//in case of null print fellow human
 fun greetReader(greeting: String = "Hey", name: String?) =
     println("$greeting ${formatName(name)}")
 
