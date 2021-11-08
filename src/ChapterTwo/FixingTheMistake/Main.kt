@@ -2,7 +2,7 @@ package ChapterTwo.FixingTheMistake
 
 fun main(args: Array<String>) {
     var language: String = "Kotlin"
-    language = null // Error: Null can not be a value of a non-null type String
+   // language = null // Error: Null can not be a value of a non-null type String
 
     var name: String? = "Kotlin"
     name = null // this is okay
